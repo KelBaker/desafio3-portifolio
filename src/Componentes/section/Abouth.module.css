@@ -1,0 +1,43 @@
+.abouth {
+    margin-top: 8%;
+  }
+  
+  .abouth h1 {
+    text-align: start;
+    margin-left: 25px;
+    margin-bottom: 10%;
+  }
+  
+  .date {
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+  }
+  
+  .information {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-right: 70px;
+  }
+  
+  .information p {
+    max-width: 280px;
+  }
+  
+  .margin1 {
+    margin-left: 3%;
+  }
+  
+  .margin2 {
+    margin-left: 3%;
+  }
+  
+  .margin3 {
+    margin-left: 3%;
+  }
+  
+  .margin4 {
+    margin-left: 4%;
+  }
+

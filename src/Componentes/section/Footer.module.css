@@ -1,0 +1,29 @@
+.contato {
+    display: flex;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.email {
+ display: flex;
+ margin-left: 5%;
+ text-align: left;
+}
+
+.email p {
+    margin: 0;
+    
+}
+
+.fa {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-left: 15em;
+    
+}
+
+.fa a {
+    color: aliceblue;
+}

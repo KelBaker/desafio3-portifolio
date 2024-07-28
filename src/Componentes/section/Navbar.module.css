@@ -1,0 +1,37 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 0 20px;
+  margin: 10px;
+  margin-left: 15%;
+}
+
+
+.navLinks ul {
+  display: flex;
+  list-style: none;
+}
+
+.navLinks li {
+  margin-left: 50px;
+}
+
+.navLinks a {
+  color: aliceblue ;
+}
+
+
+.icons ul {
+  display: flex;
+  list-style: none;
+}
+
+.icons li {
+  margin-left: 20px;
+}
+
+.icons a {
+  color: aliceblue;
+}

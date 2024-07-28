@@ -1,0 +1,43 @@
+.card {
+    box-sizing: border-box;
+    padding: 15px;
+    padding-right: 20px;
+    border-radius: 15px 0 15px 0;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 8px rgb(240, 239, 239);
+    filter: drop-shadow(0px 0px 0px black);
+
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0;
+  }
+  
+  .card h3 {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 0 !important;
+  }
+  
+  .card p {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+
+  .button {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+
+ 

@@ -1,0 +1,104 @@
+body.dark-mode {
+  background-color: #0f1624;
+  color: #ffffff;
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+body.light-mode h1,
+body.light-mode p,
+body.light-mode a {
+  color: #121212;
+}
+
+.App {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  margin: 2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+body.dark-mode a:hover {
+  color: #7d43db;
+}
+
+body.light-mode a:hover {
+  color: #6914f3;
+}
+
+
+body.dark-mode button {
+  background: linear-gradient(270deg, #7aaec0 0%, #438cb6 100.67%, #a7d3e7 100%);
+  color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  
+  
+}
+
+body.light-mode button {
+  background: linear-gradient(270deg, #2b0335 0%, #720872 100.67%, #2d0444 100%);
+  color: #ffffff;
+  border: 1px solid rgb(8, 8, 8);
+  font-style: bolder;
+  border-radius: 50px;
+
+}
+
+body.light-mode .card {
+  box-shadow: 0px 0px 8px black;
+}
+
+body.dark-mode .card {
+  box-shadow: 0px 0px 8px white;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
