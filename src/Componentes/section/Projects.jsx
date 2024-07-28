@@ -1,10 +1,9 @@
 import styles from './Projects.module.css'
 import Card from './elements/Card'
-import conapi from '../../../../images/conapi.png'
-import landingpage from '../../../../images/landingpage.png'
-import meuportifolio from '../../../../images/meuportifolio.png'
-import portifolio from '../../../../images/portifolio.png'
-import countdown from '../../../../images/countdown.png'
+import conapi from '../../../src/images/conapi.png'
+import landingpage from '../../../src/images/landingpage.png'
+import meuportifolio from '../../../src/images/meuportifolio.png'
+import countdown from '../../../src/images/countdown.png'
 
 function Projects() {
     return (

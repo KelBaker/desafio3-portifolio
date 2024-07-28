@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import styles from './Abouth.module.css'
-import linhadeprogressoDark from '../../../../images/linhadeprogresso-dark.svg'
-import linhadeprogresso from '../../../../images/linhadeprogresso-light.svg'
+import linhadeprogressoDark from '../../../src/images/linhadeprogresso-dark.svg'
+import linhadeprogresso from '../../../src/images/linhadeprogresso-light.svg'
 import ThemeContext from '../../../src/ThemeContext'
 
 function Abouth() {
